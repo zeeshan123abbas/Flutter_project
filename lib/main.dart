@@ -1,12 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebse_auth/FileUploading/Create.dart';
-import 'package:firebse_auth/FileUploading/ReadData.dart';
 import 'package:firebse_auth/dashboard.dart';
 import 'package:firebse_auth/firebase_options.dart';
 import 'package:firebse_auth/home.dart';
 import 'package:firebse_auth/mylogin.dart';
 import 'package:firebse_auth/myregister.dart';
-import 'package:firebse_auth/read.dart';
 import 'package:firebse_auth/splash.dart';
 import 'package:flutter/material.dart';
 

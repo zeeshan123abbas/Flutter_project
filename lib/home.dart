@@ -388,7 +388,7 @@ class _HomeState extends State<Home> {
 
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.indigo.withOpacity(0.25),
+                    color: Colors.indigo.withValues(alpha: 0.25),
                     blurRadius: 12,
                     offset: const Offset(0, 6),
                   ),
@@ -494,7 +494,7 @@ class _HomeState extends State<Home> {
                   shrinkWrap: true,
                   physics: const NeverScrollableScrollPhysics(),
                   itemCount: docs.length,
-                  separatorBuilder: (_, __) =>
+                  separatorBuilder: (_, _) =>
                       const SizedBox(height: 12),
 
                   itemBuilder: (context, index) {
@@ -624,7 +624,7 @@ class _HomeState extends State<Home> {
 
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.05),
+            color: Colors.black.withValues(alpha: 0.05),
             blurRadius: 8,
             offset: const Offset(0, 3),
           ),
@@ -646,7 +646,7 @@ class _HomeState extends State<Home> {
                 width: 48,
 
                 decoration: BoxDecoration(
-                  color: Colors.indigo.withOpacity(0.1),
+                  color: Colors.indigo.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
 
@@ -756,7 +756,7 @@ class _HomeState extends State<Home> {
 
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.05),
+            color: Colors.black.withValues(alpha: 0.05),
             blurRadius: 8,
             offset: const Offset(0, 3),
           ),
@@ -771,7 +771,7 @@ class _HomeState extends State<Home> {
             width: 48,
 
             decoration: BoxDecoration(
-              color: Colors.indigo.withOpacity(0.1),
+              color: Colors.indigo.withValues(alpha: 0.1),
               borderRadius: BorderRadius.circular(12),
             ),
 
